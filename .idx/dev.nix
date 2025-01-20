@@ -6,7 +6,7 @@
   # Use https://search.nixos.org/packages to find packages
   packages = [
     # pkgs.go
-    # pkgs.python311
+    pkgs.python311
     # pkgs.python311Packages.pip
     # pkgs.nodejs_20
     # pkgs.nodePackages.nodemon
@@ -42,7 +42,7 @@
         # npm-install = "npm install";
         # Open editors for the following files by default, if they exist:
         # default.openFiles = [ ".idx/dev.nix" "README.md" ];
-        install-ms-python= "code --install-extension ms-python.python";
+        # install-ms-python= "code --install-extension ms-python.python";
       };
       # Runs when the workspace is (re)started
       onStart = {
