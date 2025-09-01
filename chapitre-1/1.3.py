@@ -1,0 +1,1 @@
+print(f"Surface : {int(input("Longeur : ")) * int(input("Largeur : "))}")

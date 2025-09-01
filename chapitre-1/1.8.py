@@ -1,0 +1,10 @@
+import datetime
+hc = input("Heure d'arivée? (Utilisez format 00:00 - 24:00) : ")
+hl = input("Heure parti? (Utilisez format 00:00 - 24:00) : ")
+hd = input("Temps de pause? (Utilisez format 00:00 - 24:00) : ")
+hc = hc.split(":")
+hl = hl.split(":")
+hd = hd.split(":")
+timespent = datetime.timedelta(hours=int(hl[0]), minutes=int(hl[1])) - datetime.timedelta(hours=int(hc[0]), minutes=int(hc[1])) - datetime.timedelta(hours=int(hd[0]), minutes=int(hd[1]))
+print(f"{str(timespent).strip(r"-1 day, ")} Heures de travail par jour.")
+print(f"En une semaine: {int(str(timespent).strip(r"-1 day, ").split(":")[0]) * 5}")
