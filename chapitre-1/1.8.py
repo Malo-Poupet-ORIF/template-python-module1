@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 1.8
+# Calcul de temps passé au bureau
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 import datetime
 hc = input("Heure d'arivée? (Utilisez format 00:00 - 24:00) : ")
 hl = input("Heure parti? (Utilisez format 00:00 - 24:00) : ")

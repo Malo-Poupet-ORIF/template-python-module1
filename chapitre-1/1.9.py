@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 1.9
+# Calcul de salaire
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 salaire = int(input("Quel est votre salaire brut : "))
 salaire = salaire * (1 - 0.042)
 #print(f"ton salaire a été réduit a {salaire}")

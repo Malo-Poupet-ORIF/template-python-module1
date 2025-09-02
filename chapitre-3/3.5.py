@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 3.5
+# Question de status
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 ages = {
     7: "groupe Cadets",
     12: "groupe Louveteaux",

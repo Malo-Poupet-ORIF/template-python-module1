@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 2.9
+# Livret scolaire
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 print("""Orif section informatique - Exercice 2.9 - Malo Poupet
 --- Programme d’aide à la répétition du livret ----
 ---------------------------------------------------""")

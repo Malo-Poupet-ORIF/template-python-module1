@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 3.6
+# Grouper
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 m = input("Marque : ").lower()
 if m in ["volvo", "ford", "fiat", "opel"]:
     print("general motors")

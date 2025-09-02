@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 2.8
+# Compte en arrière chaque seconde, avertir dans les 10 dernières secondes et BOOM
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 import time
 # import winsound Non-disponible dans cet env
 for b in range(20, 0, -1):
