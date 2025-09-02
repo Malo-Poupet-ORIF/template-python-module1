@@ -1,0 +1,1 @@
+for b in range(34, int(input("S'arrêter a quel nombre : ")), int(input("Pas de combien : "))):print(b)
