@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 4.6
+# Je suis aléatoire 6
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 from random import random
 a=True
 inte=0

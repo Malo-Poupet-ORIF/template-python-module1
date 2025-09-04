@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 3.8
+# Deviner avec indice
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 from random import randint
 print("Devinez un nombre entre 1 et 100")
 max = 100

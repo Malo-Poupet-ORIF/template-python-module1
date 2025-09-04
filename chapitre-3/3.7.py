@@ -1,3 +1,10 @@
+# Orif section informatique
+#
+# Exercice 3.7
+# Deviner
+#
+# Auteur : Malo Poupet
+# Date   : 02.09.2025
 from random import randint
 print("Devinez un nombre entre 1 et 100")
 i = randint(1, 100)
