@@ -39,9 +39,14 @@ text1 = "Je "
 text2 = "suis "
 text3 = "Malo!"
 print(text1 + text2 + text3)
-# Bizzarement, on peut mettre une fonction dans un dict...
+# Bizzarement, on peut mettre une fonction dans un dict... ou plus ou moins n'importe quoi
 dictAvecFunc = {
     "lafunc": randint
 }
 print(dictAvecFunc)
 print(dictAvecFunc["lafunc"](1, 100))
+# Je te parie on peut mettre une func dans une liste
+print("func dans list")
+afsd = ["hello", randint]
+print(afsd[1](1, 100))
+# Voila cque je disais, ça marche
