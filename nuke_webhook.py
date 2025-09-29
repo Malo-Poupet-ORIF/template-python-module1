@@ -8,3 +8,4 @@ while True:
         print(f"SENT LOLOOLOL {count}")
         count = count+1
     print(resp.status_code)
+    
